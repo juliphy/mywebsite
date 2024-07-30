@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    font-family: "Lato", sans-serif;
+}
+
+#main-container {
+    margin: 20vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#profile-pic {
+    margin-bottom: 25px;
+}
+.names {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 28px;
+    color: white;
+    margin:-5%;
+}
+
+h2 {
+    font-size: 22px;
+    color: grey;
+}
+
+button {
+    display:flex;
+    flex-direction: row;
+    gap: 3px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border:none;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 12px;
+}
+
+button img {
+    padding-right: 4px;
+}
+
+#discord-button {
+    background-color: #5865F2;
+}
+
+#discord-button:hover {
+    background-color: #6f79e9;
+}
+
+#telegram-button {
+    background-color: #24A1DE;
+}
+
+#telegram-button:hover {
+    background-color: #0288cb;
+}
+
+#github-button {
+    background-color: #24292E;
+}
+
+#github-button:hover {
+    background-color: #404953;
+}
+
+.buttons {
+    display:flex;
+    gap: 8px;
+    flex-direction: row;
+}
+
+img {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.logo {
+    height: 20px;
+    width: 20px;
+}
